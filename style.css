@@ -178,52 +178,52 @@ nav ul li a {
     width: 70px;
     border-radius: 100%;
 }
-.review-con{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: justify;
-    margin-top: 100px;
-}
 .review-card{
     border: 2px solid #dfefeb;
-    width: 22%;
-    border-radius: 10px;  
-    height: 300px;
+    width: 100% !important;
+    height: 300px !important;
+    text-align: justify; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 100px;      
 }
 .review-card h3{
-    font-size: 20px;
-    padding: 15px 10px;
+    font-size: 25px;
+    
+    text-align: center;  
+}
+.svg-cont{
+    height: 25px !important;
 }
 .review-card p{
-    padding: 0px 10px;
-}
+     padding:0px 10px; 
+     margin-bottom: 0px;
+    }
 .rating{
-    display: flex;
-     background-color: #dfefeb;
-    border-bottom-right-radius: 13px;
-    border-bottom-left-radius: 13px;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 0px;   
-      
-}
+      border: 2px solid #dfefeb;
+      background-color: #dcebf6;
+      color: #004d71;
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;  
+    }
 .rating p{
-    margin-bottom: 0px;
     }
 .rating-good ,.rating-good p{
-  background-color: #fbe0d0;
+    height: 30px;
+    background-color: #fbe0d0;
+    color: #004d71;
    display: flex;
-  justify-content: start;
-  align-items: end;    
+  justify-content: space-evenly;
+  align-items: center;
   margin-bottom: 0px;
-  padding-left:0px !important;
 }
 .rating-star{
     display: flex;
+    height: 20px;
     gap: 0px;
 }
 .mobile-first-coll-con{
@@ -259,16 +259,21 @@ nav ul li a {
 .partner-con{
     height: 200px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-      
+  
 }
-.mobile-3rd-row-inner ,.mobile-3rd-row-inner p{
+
+.mobile-3rd-row-inner{
+
     height: 300px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    }
+.mobile-2nd-row-inner p{
+font-size: 20px;
+
 }
 .mobile-3rd-row-inner img{
     height: 50px;
@@ -276,6 +281,8 @@ nav ul li a {
 .partner-child,.partner-child img{
    height: 100px;
    width: 100px;
+   display: inline-block;
+   margin-left: 50px;
 }
 .footer-fluid{
     width: 100%;
@@ -347,36 +354,15 @@ nav .container-fluid{
    .child-view button{
     margin-top: 5px;    
    }
-   .review-card{
-     width: 22%;
-     height: 332px;
-   }
-   .review-card h3{
-    font-size: 8px;
-    padding:17px 1px ;
-    text-align: justify;
-    white-space: normal;   
-}
-   .review-card p{
-    font-size: 11px;
-    white-space: normal;   
-   
-}
-   .svg-cont{
-    height: 15px !important;
-   }
-   .svg2{
-    height: 8px;
+.mobile-3rd-row-inner{
 
-   }
-   .rating,.rating-good{
-    height: 30px;
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-   }
+    justify-content: center;
+    }
 
 .partner-child,.partner-child img{
    height: 25px;
@@ -402,6 +388,12 @@ nav .container-fluid{
 .last-footer-inner p{
     font-size: 10px;
 }
+.mobile-3rd-row-inner img{
+      height: 40px;
+}
+.mobile-3rd-row-inner p{
+    font-size: 15px;
+}
 }
 @media screen and (min-width: 576px){
     .img-div-2{
@@ -410,37 +402,10 @@ nav .container-fluid{
     .img-div-3{
         margin-top: 25px;
     }
-     .review-card{
-     width: 22%;
-
-   }
-   .review-card h3{
-    font-size: 12px;
-    padding:17px 1px ;
-    text-align: justify;
-    white-space: normal;   
-}
-   .review-card p{
-    font-size: 11px;
-    white-space: normal;   
    
-}
-   .svg-cont{
-    height: 15px !important;
-   }
-   .svg2{
-    height: 8px;
-
-   }
-   .rating,.rating-good{
-    height: 30px;
-    width: 100%;
-     border-radius: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
+ 
+ 
+   
 .partner-child,.partner-child img{
    height: 45px;
    width: 45px;
@@ -488,59 +453,5 @@ nav .container-fluid{
    .container-fluid button{
           margin-top: 5px; 
     }  
-    .review-con{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: justify;
-    margin-top: 100px;
-}
-.review-card{
-    border: 2px solid #dfefeb;
-    width: 22%;
-    border-radius: 10px;  
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.review-card h3{
-    font-size: 20px;
-    padding: 15px 10px;
-}
-.review-card p{
-    padding: 0px 10px;
-    font-size: 15px;
-}
-.rating{
-    
-     background-color: #dfefeb;
-    border-bottom-right-radius: 13px;
-    border-bottom-left-radius: 13px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
-     align-items: center;
-     margin-bottom: 0px;   
-      
-}
-.rating p{
-    margin-bottom: 0px;
-    }
-.rating-good ,.rating-good p{
-  background-color: #fbe0d0;
-   display: flex;
-   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;    
-  margin-bottom: 0px;
-  padding-left:0px !important;
-}
-.rating-star{
-    display: flex;
-    gap: 0px;
-}
-.svg2{
-    height: 12px !important;
-}
+   
 }
