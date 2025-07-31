@@ -282,7 +282,7 @@ font-size: 20px;
    height: 100px;
    width: 100px;
    display: inline-block;
-   margin-left: 50px;
+   margin-left: 70px;
 }
 .footer-fluid{
     width: 100%;
@@ -365,8 +365,8 @@ nav .container-fluid{
     }
 
 .partner-child,.partner-child img{
-   height: 25px;
-   width: 25px;
+   height: 80px;
+   width: 80px;
 }
 .partner-con{
     height: 200px;
