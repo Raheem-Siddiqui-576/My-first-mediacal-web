@@ -190,6 +190,7 @@ nav ul li a {
 }
 .review-card h3{
     font-size: 25px;
+    padding-top: 20px;
     
     text-align: center;  
 }
@@ -354,6 +355,13 @@ nav .container-fluid{
    .child-view button{
     margin-top: 5px;    
    }
+   .dis-2-child p{
+     font-size: 12px;
+   }
+   .child-dis p{
+    font-size: 12px;
+   }
+
 .mobile-3rd-row-inner{
 
     height: 300px;
@@ -365,8 +373,8 @@ nav .container-fluid{
     }
 
 .partner-child,.partner-child img{
-   height: 80px;
-   width: 80px;
+   height: 100px;
+   width: 100px;
 }
 .partner-con{
     height: 200px;
