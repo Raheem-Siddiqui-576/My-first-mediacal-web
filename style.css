@@ -10,16 +10,25 @@ nav img{
     width: 150px;
 }
 nav{
-    width: 100vw !important;
+    width: 100% !important;
     flex-wrap: nowrap;
     box-shadow: -2px 0px 10px grey ;
+
+}
+.nav-btn-con{
+     margin-left: 0px !important;
+    display: flex;
+    gap: 10px !important;
 }
 nav .btn,nav .btn:hover{
     border: 2px solid #004d71;
     background-color: #004d71;
 }
 nav ul li a {
+    font-size: 17px !important;
     color: #004d71 !important;
+    white-space: nowrap;
+    padding-left: 0px !important;
 }
 .sec-2{
     display: flex;
@@ -43,20 +52,21 @@ nav ul li a {
     display: inline-block;
 }
 .sec-2-search{
-    border: 2px solid black;
-    margin-top: 5px;
     display: flex;
     flex-wrap: nowrap;
-    
-}
+    height: 40px;
+    margin-top: 5px;
+    position: relative;
+  }
 .dropdown-search{
   display: flex;
     
 }
-.sec-2-search input{
- height: 39px;   
+.sec-2-search input ,.sec-2-search input::placeholder{
+ height: 40px !important; 
+  
  width: 300px;
- height: 37px;
+ text-align: center;
 }
 .icon{
  border: 2px solid #dfefeb;
@@ -64,7 +74,9 @@ nav ul li a {
  width: 50px;
  text-align: center;
  padding: 5px 0px;
- background-color: #dfefeb;  
+ background-color: #dfefeb; 
+ position: absolute;
+ right: 0px; 
  
 }
 .img-div{
@@ -211,8 +223,7 @@ nav ul li a {
       justify-content: space-evenly;
       align-items: center;  
     }
-.rating p{
-    }
+
 .rating-good ,.rating-good p{
     height: 30px;
     background-color: #fbe0d0;
@@ -323,19 +334,39 @@ font-size: 20px;
 
 /*****************media query***********/ 
 @media  screen and (max-width:576px) {
-    .sec-2-search input{
- height: 38px;   
- width: 150px;
+    .sec-2-search input ,.sec-2-search input ::placeholder{
+ height: 37px !important;   
+ width: 130px;
  height: 37px;
  flex-wrap: nowrap;
+ text-align: center;
 }
-
+.drop-do{
+    height: 40px;
+    width: 80px;
+    font-size: 10px !important;
+    text-align: start !important;
+}
+.sec-2-search{
+    margin-top: 3px;
+}
+nav li a , nav li{
+    font-size: 18px;
+    padding-left: 34px;
+}
+.nav-btn-con{
+    margin-left: 34px;
+}
 nav .container-fluid{
     justify-content: space-between !important;
 }
+
 .img-div-2 p , .img-div-3 p{
     font-size: 12px;
 }
+.con-con{
+    margin-left:10%;
+    }
  .main-con .child p{
         font-size: 11px;
         padding-top: 4px;
@@ -404,7 +435,31 @@ nav .container-fluid{
 }
 }
 @media screen and (min-width: 576px){
-    .img-div-2{
+nav li a{
+    font-size: 18px;
+    
+}
+nav li{
+    padding-left: 34px;
+}
+    .sec-2-search input ,.sec-2-search input ::placeholder{
+ height: 39px !important;   
+ width: 300px;
+
+ flex-wrap: nowrap;
+ text-align: center;
+}
+
+.fir-fluid{
+    display: flex !important;
+
+    justify-content: space-between !important;
+}
+.nav-btn-con{
+    margin-left: 34px;
+}
+
+.img-div-2{
         margin-top: 25px;
     }
     .img-div-3{
@@ -458,8 +513,21 @@ nav .container-fluid{
 }
 }
 @media screen and (min-width: 992px) {
-   .container-fluid button{
-          margin-top: 5px; 
-    }  
+    .nav-btn-con{
+         gap: 5px;
+          display: flex;
+        }
+    nav ul li a , nav ul li{
+        font-size: 15px !important;
+        padding-left: 10px;
+    }
    
+}
+@media only screen and (min-width: 1200px) {
+    nav ul li a {
+    font-size: 17px !important;
+    color: #004d71 !important;
+    white-space: nowrap;
+    padding-left: 0px !important;
+}
 }
