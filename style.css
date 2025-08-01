@@ -198,7 +198,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 100px;      
+    margin-top: 140px;      
 }
 .review-card h3{
     font-size: 25px;
