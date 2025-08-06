@@ -1,0 +1,51 @@
+@import url(style.css);
+.card{
+    margin-top: 50px;
+}
+.card img{
+    height: 200px;
+    width: 100%;
+}
+.complete-list{
+    border: 2px solid #005787;
+    background-color: #005787;
+    width: 100%;
+}
+.complete-list h5{
+    color: white;
+    text-align: center;
+    padding:20px 0px ;
+}
+#get-inf{
+    border: 2px solid #005787;
+    display: block;
+    font-size: 20px;
+    padding:2px 30px ;
+    color: #005787;
+   background-color: white;
+   transition: 0.5s;
+   margin: 13px auto;
+}
+#get-inf:hover{
+    background-color: #005787;
+    color: white;
+}
+#pkr{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+@media  screen and (max-width:576px){
+  #pkr{
+    font-size: 8px;
+  }
+    #get-inf{
+        white-space: nowrap;
+        font-size: 8px;
+        padding: 3px 5px;
+        width: 100%;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,170 @@
+@import url(style.css);
+
+body{
+    background-color: #f3f5f9 !important;
+}
+.register{
+    border: 2px solid white;
+    width: 100%;
+    height: 80px;
+    padding:25px 20px ;
+    background-color: white;
+}
+.mn-con{
+    border: 2px solid white;
+    background-color: white;
+     margin-top: 50px;
+     padding: 10px 10px;
+}
+.form-con{
+    background-color: white;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+     }
+.form-upp{
+    padding: 10px 0px;
+    text-align: center;  
+    background-color: #f3f5f9;
+}
+.form-upp input{
+     display: inline-block;
+     height: 50px;
+     width: 400px;
+     margin-top: 10px;
+    }
+.form-upp button{
+    border: 1px solid #42d697;
+    margin-top: 10px;
+    height: 50px;
+    width: 400px;
+    background-color: #42d697;
+    color: white;
+
+}
+.form-upp p{
+    font-size: 12px;
+}
+.four-box-con{
+    display: flex;
+    justify-content: space-evenly;
+     margin-top: 20px;
+}
+.four-box-child{
+    border: 2px solid white;
+    height: 70px;
+    width: 200px;
+    box-shadow: 2px 2px 40px #f3f5f9;
+     text-align: center;
+     line-height: 5px;
+     padding: 20px 0px;
+}
+.play-store-con{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+}
+.child-store-con-1{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+    text-align: center;
+  }
+  .child-store-con-1 h3{
+     color: #42d697;
+  }
+.child-store-con-2{
+    width: 30%;
+    background-color: white;
+    padding: 0px 10px;
+}
+.child-store-con-2 img{
+    height: 400px;
+    width: 100%;
+}
+
+@media  screen and (max-width:576px){
+     .form-con{
+    background-color: white;
+    display: flex;
+     flex-direction: column !important;
+    padding: 10px 10px;
+    justify-content: space-between;
+     }   
+    .form-upp input{
+     display: inline-block;
+     height: 40px;
+     width: 200px;
+     margin-top: 10px;
+    }
+.form-upp button{
+    border: 1px solid #42d697;
+    margin-top: 10px;
+    width: 200px;
+    background-color: #42d697;
+    color: white;
+     padding: 4px 0px;
+}
+.form-upp p{
+    font-size: 12px;
+}
+.play-store-con{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 600px;
+    padding: 10px 0px;
+}
+.child-store-con-1{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+.child-store-con-2{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.child-store-con-2 img{
+    height: 100%;
+    width: 100%;
+}
+
+}
+@media (min-width: 576px) and (max-width:991.98px) {
+    .form-con{
+    background-color: white;
+    display: flex;
+     flex-direction: column !important;
+    padding: 10px 10px;
+    justify-content: space-between;
+     }   
+    .form-upp input{
+     display: inline-block;
+     height: 40px;
+     width: 300px;
+     margin-top: 10px;
+    }
+.form-upp button{
+    border: 1px solid #42d697;
+    margin-top: 10px;
+    width: 300px;
+    background-color: #42d697;
+    color: white;
+     padding: 4px 0px;
+}
+.form-upp p{
+    font-size: 12px;
+} 
+}

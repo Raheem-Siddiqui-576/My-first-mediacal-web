@@ -1,0 +1,157 @@
+@import url(style.css);
+.intro,.intor p{
+    border: 2px solid #d7e7ec;
+    color: #004d71;
+    margin: 10px 0px;
+    padding-left: 5px;
+
+}
+.intro h5{
+    color: black;
+}
+.butt-con{
+   display: flex;
+   justify-content: space-evenly;
+  }
+.butt-div button{
+    border: 2px solid #d7e7ec;
+    background-color: #d7e7ec;
+    padding: 3px 10px;
+    color: #004d71;
+    font-weight: 600;
+}
+.doc-con{
+    border: 2px solid #f7f7f7;
+      box-shadow: 1px 1px 20px #f7f7f7;
+    margin-top: 30px;
+}
+.doc-int-con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.doc-int-con button{
+    border: 2px solid #4ca585;
+    background-color: #4ca585;
+    color: white;
+    padding: 5px 40px;
+}
+.doc-int-con #butt-2{
+    border: 2px solid #004d71;
+    background-color: #004d71;
+}
+.doc-butt-con{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.doc-p{
+    display: inline;
+    color: yellow;
+}
+.review-doc{
+    display: flex;
+    gap: 100px;
+}
+.img-doc{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.mob-br{
+    display: none;
+}
+.butt-mob{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .mob-h5{
+        font-size: 13px;
+    }
+    .mob-p{
+        font-size: 10px;
+
+    }
+    .mob-br{
+        display: block;
+    }
+    .review-doc{
+        gap: 10px;
+    }
+   .doc-p{
+    display: inline;
+    color: yellow;
+}
+.doc-butt-con{
+    display: none;
+}
+.img-doc{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.butt-mob{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+#mob-butt-1{
+    border: 2px solid #4ca585;
+    background-color: #4ca585;
+    padding: 0px 10px;
+    color: white;
+}
+#mob-butt-2{
+    border: 2px solid #004d71;
+    background-color: #004d71;
+    padding: 0px 10px;
+    color: white;
+
+}
+}
+@media only screen and (max-width: 767px) {
+ .mob-h5{
+        font-size: 13px;
+    }
+    .mob-p{
+        font-size: 10px;
+
+    }
+    .mob-br{
+        display: block;
+    }
+    .review-doc{
+        gap: 10px;
+    }
+   .doc-p{
+    display: inline;
+    color: yellow;
+}
+.doc-butt-con{
+    display: none;
+}
+.img-doc{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.butt-mob{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+#mob-butt-1{
+    border: 2px solid #4ca585;
+    background-color: #4ca585;
+    padding: 0px 10px;
+    color: white;
+}
+#mob-butt-2{
+    border: 2px solid #004d71;
+    background-color: #004d71;
+    padding: 0px 10px;
+    color: white;
+
+}   
+}
